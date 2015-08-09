@@ -1,0 +1,76 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		0E5C4A7A1B4C740900BFA4F8 /* BMP180.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BMP180.cpp; path = BMP180Library/BMP180.cpp; sourceTree = "<group>"; };
+		0E5C4A7B1B4C740900BFA4F8 /* BMP180.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BMP180.h; path = BMP180Library/BMP180.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E3075411B4C735100857CA0 = {
+			isa = PBXGroup;
+			children = (
+				0E5C4A7A1B4C740900BFA4F8 /* BMP180.cpp */,
+				0E5C4A7B1B4C740900BFA4F8 /* BMP180.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		0E3075421B4C735100857CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 0E3075451B4C735100857CA0 /* Build configuration list for PBXProject "BMP180" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E3075411B4C735100857CA0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		0E3075431B4C735100857CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		0E3075441B4C735100857CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E3075451B4C735100857CA0 /* Build configuration list for PBXProject "BMP180" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3075431B4C735100857CA0 /* Debug */,
+				0E3075441B4C735100857CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E3075421B4C735100857CA0 /* Project object */;
+}
