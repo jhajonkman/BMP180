@@ -21,6 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #ifndef BMP180_h
 #define BMP180_h
+#include "Arduino.h"
 
 #include <inttypes.h>
 #include "../Wire/Wire.h"

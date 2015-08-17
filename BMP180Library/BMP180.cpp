@@ -20,7 +20,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include "BMP180.h"
-#include "Arduino.h"
 
 void BMP180::begin() {
     begin(BMP180_Mode_Standard,false);
